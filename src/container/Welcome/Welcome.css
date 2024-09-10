@@ -1,0 +1,33 @@
+.app__welcome{
+  background-color: var(--color-white);
+}
+
+.app__welcome-h1 {
+  font-family: var(--font-base);
+  color: var(--color-purple);
+  letter-spacing: 0rem;
+  text-transform: uppercase;
+  line-height: 110%;
+  font-size: 70px;
+}
+
+.app__welcome-p {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 70px;
+}
+
+.app__welcome-img img {
+  height: 10px;
+}
+
+.app__wrapper_info {
+  background:
+     center / 90% 70% /* position / size */
+     no-repeat                /* repeat */
+     padding-box              /* origin */
+     content-box              /* clip */;
+}

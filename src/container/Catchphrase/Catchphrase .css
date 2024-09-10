@@ -1,0 +1,25 @@
+.app__header{
+  background-color: var(--color-white);
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-purple);
+  letter-spacing: 0rem;
+  text-transform: uppercase;
+  line-height: 110%;
+  font-size: 70px;
+}
+
+.app__header-p {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 70px;
+}
+
+.app__header-img img {
+  height: 80vh;
+}
